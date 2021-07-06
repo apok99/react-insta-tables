@@ -1,0 +1,38 @@
+{
+  "name": "react-fastest-tables",
+  "version": "0.0.3",
+  "mode": "development",
+  "description": "Create fastest dynamic tables is really easy.",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "react-usestateref": "^1.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "DAVID VICTORIA MARTINEZ",
+    "email": "davidvm99@gmail.com"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "file-loader": "^6.2.0",
+    "tailwindcss": "^2.2.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.42.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
