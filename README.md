@@ -54,7 +54,7 @@ In the version 1.0 we have only 3 props:
     3.paginationNumber: This is the number of results do you want on each page.
 
 The top configuration will render:
-![topRender](https://ibb.co/BLTzYCd)
+![topRender](https://i.ibb.co/D4wVjRs/Captura.png)
 
 ### License
 Copyright (c) 2021 David Victoria Martinez Licensed under MIT license, see LICENSE for the full license.
