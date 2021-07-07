@@ -25,6 +25,10 @@
     "name": "DAVID VICTORIA MARTINEZ",
     "email": "davidvm99@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apok99/react-fastest-tables.git"
+  },
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
