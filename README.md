@@ -1,4 +1,4 @@
-﻿# react-insta-tables
+# react-insta-tables
 Welcome to this component.
 
 ### How To Install
