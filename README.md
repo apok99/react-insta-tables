@@ -8,17 +8,17 @@ Please this component needs React hooks or React version ^17.
 
 This package can be installed via NPM   
 ```Javascript
-    npm install react-pricing-table --save
+    npm i react-insta-tables
 ```
 
 #### Example how it works.
 
-Below is a simple code on how to use the Fastest Table...
+Below is a simple code on how to use the Insta Table...
 ```Javascript
 
 import './App.css';
 import React from 'react';
-import Table from "react-fastest-tables";
+import Table from "react-insta-tables";
 
 function App() {
   return (
@@ -36,7 +36,7 @@ export default App;
 
 ### Configuration.
 
-This simple code mounts a fastest table, with filters by columns, pagination, order by columns on different by date or by a string.
+This simple code mounts an insta table, with filters by columns, pagination, order by columns on different by date or by a string.
 
 In the version 1.0 we have only 3 props:
 
