@@ -256,6 +256,7 @@ const Table = (props) => {
                     </div>
                     <div className="col-span-1">
                         {
+                            paginationRef.current.length > 0 &&
                             renderPaginationButtons()
                         }
                     </div>
