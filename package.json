@@ -1,6 +1,6 @@
 {
   "name": "react-fastest-tables",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "mode": "production",
   "description": "Create fastest dynamic tables is really easy.",
   "main": "build/index.js",
