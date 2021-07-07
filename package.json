@@ -1,8 +1,8 @@
 {
-  "name": "react-fastest-tables",
-  "version": "1.0.4",
+  "name": "react-insta-tables",
+  "version": "1.0.1",
   "mode": "production",
-  "description": "Create fastest dynamic tables is really easy.",
+  "description": "Create insta dynamic tables in a  couple of seconds.",
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^17.0.2"
