@@ -1,6 +1,6 @@
 {
   "name": "react-insta-tables",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "mode": "production",
   "description": "Create insta dynamic tables in a  couple of seconds.",
   "main": "build/index.js",
