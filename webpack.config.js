@@ -1,5 +1,4 @@
 const path = require('path');
-
 module.exports = {
   mode: 'production',
   entry: './src/index.js',
@@ -19,7 +18,7 @@ module.exports = {
         test: /\.css$/,
         use: [
           'style-loader',
-          'css-loader'
+          'css-loader',
         ]
       },
       {
@@ -30,12 +29,9 @@ module.exports = {
         },
       },
       {
-        test: /\.(jpe?g|png|gif|svg)$/i, 
-        loader: 'file-loader',
-        options: {
-          name: '/resources/[name].[ext]'
-        }
-    }
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ['file-loader']
+      }
     ],
   },
   
@@ -43,9 +39,9 @@ module.exports = {
     alias: {
       'react': path.resolve(__dirname, './node_modules/react'),
       'react-dom': path.resolve(__dirname, './node_modules/react-dom'),
+      'resources': path.join(__dirname, './src/resources' )
     }
   },
-  
   externals: {
     // Don't bundle react or react-dom      
     react: {
